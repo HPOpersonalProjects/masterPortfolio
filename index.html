@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Harry Oyarvide's Portfolio - Back-End Developer in Progress">
-    <meta name="keywords" content="Harry Oyarvide, portfolio, back-end developer, AWS, coding, tech">
     <script src="assets/js/index.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- link for icons from FontAwesome.com -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <!-- link for bootstrap submit button -->
+ 
 
     <title>My Portfolio</title>
 </head>
@@ -21,7 +22,7 @@
                 <img src="assets/images/HOYARVIDE LOGO.png" alt="Harry Oyarvide Logo">
                 <ul>
                     <li><a href="#">About me</a></li>
-                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">My projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -42,11 +43,9 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Hi, I'm Harry P Oyarvide, an application engineer with the goal of transitioning into tech, 
-                        particularly in back-end development and cloud computing with AWS. With a foundation in electrical engineering 
-                        and hands-on experience in HTML, CSS, and JavaScript, I'm driven by a passion for problem-solving and continuous learning.
-                        Outside of work, I enjoy hiking with my family and our dog Xena. I'm excited to keep growing in the tech world 
-                        and make my mark through curiosity and innovation.
+                    <p>Hey there! 👋 I'm Harry P. Oyarvide, an enthusiastic sales application engineer on an exciting journey into the tech world. I'm particularly passionate about back-end development and cloud computing with AWS. My background in electrical engineering, combined with my growing expertise in JavaScript, SQL, Python gives me a unique perspective on problem-solving and innovation.
+                        <br>What drives me? The thrill of crafting elegant solutions and the endless possibilities in tech. When I'm not coding or learning new technologies, you'll find me hiking trails with my family and our adventurous dog, Xena. 🏃‍♂️🐕 F1 fanatic...love fast cars.
+                        <br>I'm on a mission to combine my engineering mindset with cutting-edge tech skills to create impactful solutions. Every day, I'm taking steps toward my goal of becoming a skilled full-stack developer, fueled by curiosity and a commitment to continuous learning. Let's build something amazing together! 🚀
                     </p>
 
                     <div class="tab-titles">
@@ -56,22 +55,27 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Programming Languages</span><br>JavaScript (including Node.js), CSS, HTML</li>
-                            <li><span>Frameworks & Libraries</span><br>Node.js, React, MongoDB</li>
-                            <li><span>Databases</span><br>SQL, NoSQL</li>
+                            <li id="content-color"><span>Programming Languages</span><br><span style="color: #ababab" >JavaScript (including Node.js), CSS, HTML</span></li>
+                            <br>
+                            <li id="content-color"><span>Frameworks & Libraries</span><br><span style="color: #ababab" >Node.js, React, MongoDB</span></li>
+                            <br>
+                            <li id="content-color"><span>Databases</span><br><span style="color: #ababab" >SQL, NoSQL</span></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2014 - Current</span><br>Application Sales Engineer</li>
-                            <li><span>2012 - 2014</span><br>Summer Manager J.B Moving Company</li>
+                            <li id="content-color"><span>2014 - Current</span><br><span style="color: #ababab" >Application Sales Engineer</span></li>
+                            <br>
+                            <li id="content-color"><span>2012 - 2014</span><br><span style="color: #ababab" >Summer Manager J.B Moving Company</span></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2024 - Current</span><br>UConn Coding Bootcamp</li>
-                            <li><span>2013</span><br>Bachelor's Degree in Electrical Engineering</li>
-                            <li><span>2010</span><br>SUNY Westchester Community College</li>
+                            <li id="content-color"><span>2024 - Current</span><br><span style="color: #ababab" >UConn Coding Bootcamp</span></li>
+                            <br>
+                            <li id="content-color"><span>2013</span><br><span style="color: #ababab" >Bachelor's Degree in Electrical Engineering</span></li>
+                            <br>
+                            <li id="content-color"><span>2010</span><br><span style="color: #ababab" >SUNY Westchester Community College</span></li>
                         </ul>
                     </div>
                 </div>
@@ -82,31 +86,89 @@
     <!-- Projects  -->
    <div id="projects">
         <div class="container">
-            <h1 clas="sub-title">My projects</h1>
+            <h1 class="sub-title">My projects</h1>
             <div class="project-list">
                 <div>
                     <i class="fa-solid fa-money-bill-wave"></i>
                     <h2>Budget Web Application</h2>
                     <p>user-friendly application designed to help individuals manage their finances efficiently.</p>
-                    <a href="#">learn more</a>
+                    <a href="https://github.com/HPOpersonalProjects/BudgetApp.git">learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-cart-shopping"></i>
                     <h2>Shopping Web application</h2>
                     <p>It allows users to browse products, view detailed descriptions, add items to their cart, and securely complete purchases.</p>
-                    <a href="#">learn more</a>
+                    <a href="https://github.com/HPOpersonalProjects/ShoppingApp.git">learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-face-tired"></i>
                     <h2>Bored API</h2>
                     <p>fun, interactive tool that suggests activities to help users combat boredom.</p>
-                    <a href="#">learn more</a>
+                    <a href="https://github.com/HPOGFD/BoredAPI.git">learn more</a>
                 </div>
+              
             </div>
 
         </div>
    </div>
 
+   <!-- coming soon  -->
+
+   <div id="projects">
+    <div class="container">
+   
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <h2>coming soon</h2>
+                <p>user-friendly application designed to help individuals manage their finances efficiently.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>coming soon</h2>
+                <p>It allows users to browse products, view detailed descriptions, add items to their cart, and securely complete purchases.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-face-tired"></i>
+                <h2>coming soon</h2>
+                <p>fun, interactive tool that suggests activities to help users combat boredom.</p>
+                <a href="#">learn more</a>
+            </div>
+          
+        </div>
+
+    </div>
+</div>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> poyarvide87@yahoo.com</p>
+                <p><i class="fa-solid fa-phone"></i> 91458460663</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-x"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Please enter your name" required>
+                    <input type="email" name="Email" placeholder="Please enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="button">Send</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 
 </html>
+
